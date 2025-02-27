@@ -5,7 +5,7 @@ import {addPost} from "../store/actions/postListActions.js";
 import { FaAnglesRight } from "react-icons/fa6";
 import { FaAnglesLeft } from "react-icons/fa6";
 import {fetchPostsFromAPI} from "../utils.js";
-import {CARD_PER_PAGE} from "../contants.js";
+import {CARD_PER_PAGE} from "../constants.js";
 import './App.css';
 
 function App(props) {
